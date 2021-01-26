@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Nubank Soma",
+  "version": "0.1 Alpha",
+
+  "description": "Nunbank soma",
+
+  "icons": {
+    "48": "icons/cancel-48.png",
+    "96": "icons/cancel-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.nubank.com.br/*"],
+      "js": ["NubankSoma.js"]
+    }
+  ]
+
+}
