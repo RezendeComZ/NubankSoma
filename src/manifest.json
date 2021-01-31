@@ -13,8 +13,9 @@
 
   "content_scripts": [
     {
-      "matches": ["https://*.nubank.com.br/*"],
-      "js": ["NubankSoma.js"]
+      "matches": ["https://app.nubank.com.br/*"],
+      "js": ["NubankSoma.js"],
+      "run_at": "document_start"
     }
   ]
 
